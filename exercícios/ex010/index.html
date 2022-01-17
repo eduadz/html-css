@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="pt-br">
 <head>
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
@@ -10,7 +10,7 @@
     <h1>Usando links externos</h1>
     <p>Você pode acessar o <a hreflang="pt-br" href="https://github.com/gustavoguanabara" target="_blank" rel="external">repositório público do GG no GitHub</a></p> <!--Com o target ele abre em uma nova aba e o site é mantido
         hreflang avisa ao navegador que o link externo é de outra língua
-        rel indica se o link faz parte do seu site ou de outros-->
+        rel indica para o navegador se o link faz parte do seu site ou de outros-->
 
     <p>Você também pode <a href="https://youtube.com/cursoemvideo/" target="_blank" rel="external">acessar o canal do GG no link</a></a></p>
     
@@ -18,6 +18,13 @@
     <p>Essa é a primeira página, se quiser acesse também a <a target="_self" href="pag002.html" rel="next">segunda página</a></p>
 
     <p>Acesse <a target="_self" href="noticias/noticias.html"> página de notícias</a></p>
+
+    <h1>links para download</h1>
+    <ul>
+        <li><a href="livro/meulivro.pdf" download="meulivro.pdf" type="application/pdf">Baixe o livro em PDF</a></li>
+        <li><a href="livro/meulivro.zip" download="meulivro.zip" type="application.zip">Baixe o livro compactado em zip</a></li>
+        <!--Para encontrar os media types dos arquivos: iana.org/assignments/media-types -->
+    </ul>
     
 
 </body>
